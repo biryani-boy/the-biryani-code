@@ -4,5 +4,6 @@ def factorial(x):
     else:
         return (x*fact(x-1));
 
-num=int(input("enter number"))
+num=int(input("enter number for factorial"))
+print("the factorial of "+str(num)+" is:")
 print(factorial(num))
